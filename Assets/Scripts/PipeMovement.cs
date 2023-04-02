@@ -15,7 +15,7 @@ public class PipeMovement : MonoBehaviour
 
     void Update()
     {
-        if (GameOverLogic.GameOver)
+        if (GameOverLogic.IsGameOver)
         {
             _speed = 0f;
         }
